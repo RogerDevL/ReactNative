@@ -4,7 +4,7 @@ export default function Texto() {
     const [texto,setTexto] = useState('texto do novo componente')
 
     useEffect(() => {
-        setTexto("Outro texto")
+        setTexto("Formulario")
     }, []);
 
   return (
